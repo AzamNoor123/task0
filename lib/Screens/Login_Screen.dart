@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:task_0/Screens/LoginScreenController.dart';
@@ -49,7 +47,7 @@ class LoginScreen extends StatelessWidget {
                   padding: const EdgeInsets.all(10.0),
                   child: CustomTextField(
                     hinttext: 'Enter Password',
-                    labal: 'Password',
+                    labal: 'Paswd',
                     controller: passwdctr,
                     isenable: true,
                   ),
